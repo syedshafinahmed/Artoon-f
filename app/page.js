@@ -324,7 +324,7 @@ export default function Home() {
 
                 <div className="w-2/3 p-4 flex flex-col justify-between">
                   <div>
-                    <h3 className="text-2xl font-extrabold text-base-200">
+                    <h3 className="text-xl md:text-2xl font-extrabold text-base-200">
                       {artist.name}
                     </h3>
 
