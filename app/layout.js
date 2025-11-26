@@ -41,22 +41,22 @@ export default function RootLayout({ children }) {
           {/* footer */}
           <footer className="footer footer-horizontal text-base-200 footer-center bg-linear-to-bl from-blue-400 to-blue-600  rounded-xl p-10">
             <nav className="grid grid-flow-col gap-4">
-              <Link className="mr-5 font-medium text-sm" href="/">
+              <Link className="mr-3 font-medium text-xs md:text-sm" href="/">
                 Home
               </Link>
-              <Link className="mr-5 font-medium text-sm" href="/aboutus">
+              <Link className="mr-3 font-medium text-xs md:text-sm" href="/aboutus">
                 About Us
               </Link>
-              <Link className="mr-5 font-medium text-sm" href="/arts">
+              <Link className="mr-3 font-medium text-xs md:text-sm" href="/arts">
                 Arts
               </Link>
-              <Link className="mr-5 font-medium text-sm" href="/blogs">
+              <Link className="mr-3 font-medium text-xs md:text-sm" href="/blogs">
                 Blogs
               </Link>
-              <Link className="mr-5 font-medium text-sm" href="/addarts">
+              <Link className="mr-3 font-medium text-xs md:text-sm" href="/addarts">
                 Add Arts
               </Link>
-              <Link className="mr-5 font-medium text-sm" href="/managearts">
+              <Link className="mr-3 font-medium text-xs md:text-sm" href="/managearts">
                 Manage Arts
               </Link>
             </nav>
