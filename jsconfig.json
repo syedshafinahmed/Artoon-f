@@ -1,7 +1,20 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./*"]
+//     }
+//   }
+// }
+
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["*"],
+      "@/components/*": ["components/*"],
+      "@/components/ui/*": ["components/ui/*"],
+      "@/lib/*": ["lib/*"],
+      "@/hooks/*": ["hooks/*"]
     }
   }
 }
