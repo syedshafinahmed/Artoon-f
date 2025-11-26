@@ -123,12 +123,17 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 li .active {
-  color: #2563eb; 
+  color: #2563eb;
   border-bottom: 2px solid #2563eb;
+}
+
+body * {
+  overflow-x: hidden;
 }

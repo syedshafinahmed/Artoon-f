@@ -11,7 +11,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules"; // ✅ Correct import
+import { Autoplay, Pagination } from "swiper/modules"; 
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -363,23 +363,25 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="w-full bg-blue-200/50 border border-blue-200  py-20 mb-20 rounded-xl">
-        <div className="max-w-4xl mx-auto px-6 text-center relative">
+      <section className="w-full bg-blue-200/50 border border-blue-200 py-20 mb-20 rounded-xl">
+        <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-black bg-linear-to-b from-blue-400 to-blue-600 bg-clip-text text-transparent mb-4">
             Stay Inspired with Art
           </h2>
+
           <p className="text-blue-600 mb-8 text-lg md:text-xl">
             Subscribe to our newsletter and get the latest artworks, artist
             stories, and creative updates delivered directly to your inbox.
           </p>
 
-          <div className="flex relative w-full flex-col sm:flex-row justify-center items-center gap-4">
+          <div className="flex flex-col sm:flex-row w-full justify-center items-center gap-4">
             <input
               type="email"
               placeholder="Enter your email"
-              className="w-full text-left  bg-gray-200 sm:w-auto pl-5 pr-100 py-3 rounded-full focus:outline-none text-gray-800 placeholder-gray-400"
+              className="w-full sm:w-80 bg-gray-200 pl-5 py-3 rounded-full focus:outline-none text-gray-800 placeholder-gray-400"
             />
-            <button className="btn absolute left-156 border border-blue-600 py-3 bg-white text-blue-600 font-bold rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300">
+
+            <button className="btn border border-blue-600 py-3 px-8 bg-white text-blue-600 font-bold rounded-full hover:bg-blue-600 hover:text-white transition-all duration-300">
               Subscribe
             </button>
           </div>
